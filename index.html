@@ -124,13 +124,17 @@
                 width: 100vw;
                 flex-wrap: wrap;
                 margin-bottom: 10px;
-                padding: 2px;
+                padding: 2px 0;
+                overflow: hidden;
             }
-            .left{
+
+            .left {
                 width: 70vw;
             }
-            .content section{
+
+            .content section {
                 align-items: center;
+                margin: auto;
                 flex-direction: column;
             }
             .content section img{
@@ -147,7 +151,7 @@
             .Price{
                 flex-direction: column;
                 overflow: scroll;
-                height: 180vh                  !important;
+                height: 180vh !important;
             }
             .plans{
                 width: 74vw;
@@ -204,7 +208,7 @@
     <div class="content">
         <section class="web flex justify-center">
             <div>
-                <img src="./Img/webapp.png" alt="" height="285px" width="485px">
+                <img src="./Img/webapp.png" alt="img" height="285px" width="485px">
                 <h3>Web Application</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quos delectus tempore similique
                     sed assumenda doloribus excepturi! Neque minus distinctio quo ullam?</p>
@@ -215,10 +219,11 @@
         <section class="web flex justify-center">
             <div>
                 <h3>Mobile App</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quos delectus tempore similique
-                    sed assumenda doloribus excepturi! Neque minus distinctio quo ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quos delectus      tempore similique
+                    sed assumenda doloribus excepturi! Neque minus distinctio quo ullam?
+                </p>
+                <img src="./Img/mobile.jpg" alt="" height="285px" width="500px">
             </div>
-            <img src="./Img/mobile.jpg" alt="" height="285px" width="500px">
         </section>
     </div>
     <center>
