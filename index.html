@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Metric</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    </style>
+    <style>
+        .container {
+            margin-bottom: 45px;
+            padding: 20px 50px;
+            background-color: #6dd4c7;
+        }
+
+        .left {
+            height: 40%;
+            width: 35%;
+            margin: 30px 45px;
+            margin-left: 9px;
+        }
+
+        .left h1 {
+            font-size: 32px;
+            margin: 12px 1px;
+        }
+
+        .btn {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 15px 0px;
+            padding: 12px 20px;
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background-color: rgb(97, 223, 97);
+            border: 2px solid black;
+            color: black;
+        }
+
+        .btn1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            font-size: 17px;
+            margin: 15px 0px;
+            padding: 9px 17px;
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            border-radius: 6px;
+        }
+
+        .web {
+            margin: 25px 12px;
+        }
+
+        .web img {
+            border-radius: 12px;
+        }
+
+        .web div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 12px 20px;
+            width: 40%;
+        }
+
+        .web div h3 {
+            font-size: 20px;
+            margin: 15px 5px;
+        }
+
+        .plans {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: center;
+            height: 45vh;
+            width: 17%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+            margin: 12px 12px;
+            padding: 10px 8px;
+        }
+
+        .plans:hover {
+            transform: scale(1.05);
+            border: 1px solid black;
+            transition: 200ms;
+        }
+
+        .plans h2 {
+            font-weight: 600;
+            margin: 15px 5px;
+        }
+
+        .plans p {
+            color: rgb(85, 67, 248);
+            margin: 10px 5px;
+        }
+
+        .plans span {
+            margin-top: 12px;
+            color: black;
+        }
+
+        .btn3:hover {
+            background-color: rgb(85, 85, 255);
+            color: white;
+            font-size: 17px;
+            transition: 200ms;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 100vw;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+                padding: 2px;
+            }
+            .left{
+                width: 70vw;
+            }
+            .content section{
+                align-items: center;
+                flex-direction: column;
+            }
+            .content section img{
+                height: 180px;
+                width: 79vw;
+            }
+            .web div {
+                width: 90vw;
+            }
+            .content section div img{
+                order: 2;
+                margin: 25px 0;
+            }
+            .Price{
+                flex-direction: column;
+                overflow: scroll;
+                height: 180vh                  !important;
+            }
+            .plans{
+                width: 74vw;
+                height: 37vh;
+            }
+            footer{
+                height: 60vh;
+            }
+            .footer section h2{
+                font-size: 25px;
+                margin: 5px 10px;
+            }
+            .footer section p{
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="flex justify-between bg-blue ">
+        <h4 class="logo">Metric</h4>
+        <ul class="flex navbar ">
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Customers</li>
+            <li>Sign Up</li>
+        </ul>
+        <div class="hamburger">
+            <div class="list-line"></div>
+            <div class="list-line"></div>
+            <div class="list-line"></div>
+        </div>
+    </nav>
+    <div class="container flex justify-center item-center">
+        <section class="left">
+            <h1>Grow Your Business 10x With Metric</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere consectetur aspernatur eveniet ullam
+                dignissimos fugiat vel!</p>
+            <button class="btn">Sign In</button>
+            <button class="btn1">Learn More</button>
+        </section>
+        <section class="right">
+            <img src="./Img/index.png" alt="" height="350px">
+        </section>
+    </div>
+    <center>
+        <h2>Sync Across All Devices</h2>
+    </center>
+    <center>
+        <p>Everything you need to make business grow <b>super fast!</b></p>
+    </center>
+    <br>
+    <div class="content">
+        <section class="web flex justify-center">
+            <div>
+                <img src="./Img/webapp.png" alt="" height="285px" width="485px">
+                <h3>Web Application</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quos delectus tempore similique
+                    sed assumenda doloribus excepturi! Neque minus distinctio quo ullam?</p>
+            </div>
+        </section>
+    </div>
+    <div class="content">
+        <section class="web flex justify-center">
+            <div>
+                <h3>Mobile App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quos delectus tempore similique
+                    sed assumenda doloribus excepturi! Neque minus distinctio quo ullam?</p>
+            </div>
+            <img src="./Img/mobile.jpg" alt="" height="285px" width="500px">
+        </section>
+    </div>
+    <center>
+        <h1>Plans & Pricing</h1>
+    </center>
+    <center>
+        <p>No credit card required. No risk <b>30 days money back guarantee!</b></p>
+    </center>
+    <div class="flex justify-center Price"
+        style="margin: 25px; background-color: #b2d4e19e; height: 30vw; display: flex; align-items: center;">
+        <div class="plans">
+            <h2>Starter</h2>
+            <p>$15 <span>/month</span></p>
+            <p>500 <span>Data Points</span></p>
+            <p>1 <span>Team Members</span></p>
+            <hr>
+            <span><b>Email</b>Support</span>
+            <button class="btn btn3">Choose Plan</button>
+        </div>
+        <div class="plans">
+            <h2>Professional</h2>
+            <p>$30 <span>/month</span></p>
+            <p>2000<span>Data Points</span></p>
+            <p>1 <span>Team Members</span></p>
+            <hr>
+            <span><b>Email</b>Support</span>
+            <button class="btn btn3">Choose Plan</button>
+        </div>
+        <div class="plans">
+            <h2>Startup</h2>
+            <p>$75 <span>/month</span></p>
+            <p>5000 <span>Data Points</span></p>
+            <p>3 <span>Team Members</span></p>
+            <hr>
+            <span><b>Email</b>Support</span>
+            <button class="btn btn3">Choose Plan</button>
+        </div>
+        <div class="plans">
+            <h2>Business</h2>
+            <p>$250 <span>/month</span></p>
+            <p>15000 <span>Data Points</span></p>
+            <p>10 <span>Team Members</span></p>
+            <hr>
+            <span><b>Email</b> and API Support </span>
+            <button class="btn btn3">Choose Plan</button>
+        </div>
+    </div>
+    <br>
+    <center>
+        <h2>What People Say About Us </h2>
+    </center>
+    <center>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cum similique repellendus minus, praesentium
+            odit.</p>
+    </center>
+    <center>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nam nostrum itaque.</p>
+    </center>
+    <center>
+        <p>Lorem ipsum dolor sit amet consectetur exercitationem?</p>
+    </center>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="foooter flex">
+            <section>
+                <h2>Metric</h2>
+                <p>sign up for our newspaper</p>
+                <p><input type="search" name="" placeholder="Email Address"><button>Subscribe</button></p>
+            </section>
+            <section>
+                <h2>COMPANY</h2>
+                <li>Home</li>
+                <li>Features</li>
+                <li>Client</li>
+                <li>Pricing</li>
+                <li>Sign Up</li>
+            </section>
+            <section>
+                <h2>PRODUCT</h2>
+                <li>Analytics</li>
+                <li>Testimorails</li>
+                <li>Business</li>
+                <li>Integration</li>
+            </section>
+            <section>
+                <h2>LEGAL</h2>
+                <li>Privacy</li>
+                <li>Term of Use</li>
+            </section>
+        </div>
+    </footer>
+    <script>
+        let hamburger = document.querySelector('.hamburger');
+        let navbar = document.querySelector('.navbar');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle("active")
+            navbar.classList.toggle("active")
+        })
+    </script>
+</body>
+
+</html>
